@@ -9,7 +9,7 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            This is a test
+            {/* This is a test */}
           </p>
           <h1 className='py-4 text-gray-700'>
             Hi, I'm <span className='text-[#5651e5]'>Joe</span>
@@ -33,12 +33,24 @@ const Main = () => {
             fullest potential.
           </p> */}
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-              <FaLinkedin />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-              <FaGithub />
-            </div>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.linkedin.com/in/josephelias/'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                <FaLinkedin />
+              </div>
+            </a>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://github.com/averagecupofjoey'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                <FaGithub />
+              </div>
+            </a>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
               <AiOutlineMail />
             </div>
