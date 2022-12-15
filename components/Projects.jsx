@@ -22,11 +22,13 @@ const Projects = () => {
             title='Octo Game'
             backgroundImg={octohome}
             projectUrl='/octogame'
+            summary='An online multiplayer party game.'
           />
           <ProjectItem
-            title='Pizza Paths'
+            title='PizzaPaths'
             backgroundImg={pizzapath}
             projectUrl='/pizzapaths'
+            summary='A pizza tour generator for pizza explorers.'
           />
         </div>
       </div>

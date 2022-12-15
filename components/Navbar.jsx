@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
+import { CgFileDocument } from 'react-icons/cg';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -155,17 +155,31 @@ const Navbar = () => {
                 Connect with me
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300'>
-                  <FaLinkedinIn />
-                </div>
+                <a
+                  target='_blank'
+                  rel='noreferrer'
+                  href='https://www.linkedin.com/in/josephelias/'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300'>
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  target='_blank'
+                  rel='noreferrer'
+                  href='https://github.com/averagecupofjoey'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
+                    <FaGithub />
+                  </div>
+                </a>
+                <a href='mailto:jrelias@outlook.com'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
+                    <AiOutlineMail />
+                  </div>
+                </a>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
-                  <FaGithub />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
-                  <AiOutlineMail />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
-                  <BsFillPersonLinesFill />
+                  <CgFileDocument />
                 </div>
               </div>
             </div>

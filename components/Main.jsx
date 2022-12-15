@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { CgFileDocument } from 'react-icons/cg';
 
 const Main = () => {
   return (
@@ -51,11 +51,13 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
+            <a href='mailto:jrelias@outlook.com'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail />
+              </div>
+            </a>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-              <AiOutlineMail />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-              <BsFillPersonLinesFill />
+              <CgFileDocument />
             </div>
           </div>
         </div>

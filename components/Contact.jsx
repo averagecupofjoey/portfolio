@@ -1,13 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import contact from '../public/assets/contact.jpg';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import { CgFileDocument } from 'react-icons/cg';
 
 const Contact = () => {
+  let [subject, updateSubject] = useState('');
+
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 pt-20 w-full'>
@@ -38,17 +41,31 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
+                  <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://www.linkedin.com/in/josephelias/'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                      <FaLinkedin />
+                    </div>
+                  </a>
+                  <a
+                    target='_blank'
+                    rel='noreferrer'
+                    href='https://github.com/averagecupofjoey'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a href='mailto:jrelias@outlook.com'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                  </a>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-                    <FaLinkedin />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-                    <FaGithub />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
+                    <CgFileDocument />
                   </div>
                 </div>
               </div>
@@ -57,13 +74,14 @@ const Contact = () => {
           {/* right side */}
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
-              <form>
+              <form action={subject} method='post' enctype='text/plain'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
+                      name='name'
                     />
                   </div>
                   <div className='flex flex-col'>
@@ -73,6 +91,7 @@ const Contact = () => {
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
+                      name='phone'
                     />
                   </div>
                 </div>
@@ -81,6 +100,7 @@ const Contact = () => {
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
+                    name='email'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -88,6 +108,12 @@ const Contact = () => {
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
+                    // name='subject'
+                    onChange={(e) => {
+                      updateSubject(
+                        `mailto:jrelias@outlook.com?subject=` + e.target.value
+                      );
+                    }}
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -95,6 +121,7 @@ const Contact = () => {
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
+                    name='message'
                   ></textarea>
                 </div>
                 <button className='w-full p-4 mt-4 text-gray-100'>
