@@ -15,7 +15,12 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.asPath === '/octogame' || router.asPath === '/pizzapaths') {
+    if (
+      router.asPath === '/octogame' ||
+      router.asPath === '/pizzapaths' ||
+      router.asPath === '/github' ||
+      router.asPath === '/dragondepot'
+    ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {

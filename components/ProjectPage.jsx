@@ -8,10 +8,12 @@ const ProjectPage = ({
   projectImage,
   projectDesc,
   technologies,
+  codeLink,
+  demoLink,
 }) => {
   return (
     <div className='w-full'>
-      <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
+      <div className='w-screen h-[30vh] lg:h-[40vh] fixed'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'></div>
         <Image
           className='absolute z-1'
@@ -25,7 +27,7 @@ const ProjectPage = ({
           <h3>{projectHeadline}</h3>
         </div>
       </div>
-      <div className='mx-auto max-w-[1240px] p-2 grid md:grid-cols-5 gap-8 pt-8'>
+      <div className='mx-auto max-w-[1240px] p-2 grid md:grid-cols-5 gap-8 pt-[33vh] lg:pt-[43vh]'>
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
@@ -37,8 +39,12 @@ const ProjectPage = ({
             );
           })}
           {/* <p className='pb-4'>{projectDesc}</p> */}
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          <a target='_blank' rel='noreferrer' href={demoLink}>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          </a>
+          <a target='_blank' rel='noreferrer' href={codeLink}>
+            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

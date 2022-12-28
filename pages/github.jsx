@@ -1,14 +1,14 @@
 import React from 'react';
 import ProjectPage from '../components/ProjectPage';
-import projectImg from '../public/assets/projects/pizzapaths.jpeg';
+import projectImg from '../public/assets/projects/githubfinder.png';
 
-const projName = 'PizzaPaths';
+const projName = 'Github Finder';
 const techs = [
   'Javascript',
-  'NextJS',
+  'React',
   'Node',
-  'Axios',
-  'Leaflet',
+  'DaisyUI',
+  'Tailwind',
   'OpenStreetMap',
   'Yelp API',
   'Mapbox API',
@@ -27,18 +27,18 @@ const p4 =
   'Finally, a user is able to generate a new path or ammend the total slices desired in a path. Thanks to the data structure containing route info, this is done without needing to make an additional Yelp API call.';
 const desc = [p1, p2, p3, p4];
 
-const pizzapaths = () => {
+const github = () => {
   return (
     <ProjectPage
       projectName={projName}
-      projectHeadline='A pizza tour generator for pizza explorers'
+      projectHeadline='Usese the Github API to search for profiles'
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
-      demoLink='http://www.pizzapaths.com'
-      codeLink='https://github.com/averagecupofjoey/PizzaPaths'
+      demoLink='https://githubfinder-tn37.onrender.com/'
+      codeLink='https://github.com/averagecupofjoey/github-finder'
     ></ProjectPage>
   );
 };
 
-export default pizzapaths;
+export default github;

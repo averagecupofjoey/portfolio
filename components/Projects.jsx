@@ -7,6 +7,8 @@ import octohome from '../public/assets/projects/octohome.PNG';
 import ProjectItem from './ProjectItem';
 // import joe from '../public/assets/Joe.JPG';
 import pizzapath from '../public/assets/projects/pizzapaths.JPEG';
+import githubfinder from '../public/assets/projects/githubfinder.png';
+import dragondepot from '../public/assets/projects/dragondepot.png';
 
 const Projects = () => {
   return (
@@ -29,6 +31,19 @@ const Projects = () => {
             backgroundImg={pizzapath}
             projectUrl='/pizzapaths'
             summary='A pizza tour generator for pizza explorers.'
+          />
+          <ProjectItem
+            title='Dragon Depot'
+            backgroundImg={dragondepot}
+            projectUrl='/dragondepot'
+            summary='A pizza tour generator for pizza
+            explorers.'
+          />
+          <ProjectItem
+            title='Github Finder'
+            backgroundImg={githubfinder}
+            projectUrl='/github'
+            summary='Uses the Github API to search for profiles.'
           />
         </div>
       </div>

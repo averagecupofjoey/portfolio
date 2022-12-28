@@ -20,8 +20,8 @@ const About = () => {
             I'm a <span className='font-bold'>big picture </span>
             innovator and leader. My programming knowledge combined with my
             managerial, analytical, and creative experiences give me a skill set
-            that is uniquely me. I'm actively looking for a programming role
-            that will allow me to make use of and grow my skill set to its
+            that is uniquely me. I'm actively looking for a software engineering
+            role that will allow me to make use of and grow my skill set to its
             fullest potential.
           </p>
         </div>
