@@ -5,12 +5,13 @@ import projectImg from '../public/assets/projects/dragondepot.png';
 const projName = 'Dragon Depot';
 const techs = ['Tailwind', 'Javascript', 'HTML'];
 
-const p1 = 'This site was made ultimately to get practice with TailwindCSS.';
+const p1 =
+  'This site was made ultimately to get practice with TailwindCSS and custom animations.';
 
 const p2 =
-  "It's resonsive design features different layouts for mobile, tablet, and desktop - as well as a different color scheme for light and dark mode preferences. I also practiced animations while building this site.";
+  "It's resonsive design features different layouts for mobile, tablet, and desktop - as well as a different color scheme for light and dark mode preferences.";
 
-const p3 = `Images were generated using Midjourney AI`;
+const p3 = 'Images were generated using Midjourney AI.';
 
 const desc = [p1, p2, p3];
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import ProjectPage from '../components/ProjectPage';
-import projectImg from '../public/assets/projects/pizzapaths.jpeg';
+import projectImg from '../public/assets/projects/imaginerealty.png';
 
-const projName = 'PizzaPaths';
+const projName = 'Imagine Realty';
 const techs = [
   'Javascript',
   'NextJS',
@@ -27,18 +27,18 @@ const p4 =
   'Finally, a user is able to generate a new path or ammend the total slices desired in a path. Thanks to the data structure containing route info, this is done without needing to make an additional Yelp API call.';
 const desc = [p1, p2, p3, p4];
 
-const pizzapaths = () => {
+const imaginerealty = () => {
   return (
     <ProjectPage
       projectName={projName}
-      projectHeadline='A pizza tour generator for pizza explorers'
+      projectHeadline='A real estate listing site with user profiles'
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
-      demoLink='https://pizzapaths.onrender.com/'
-      codeLink='https://github.com/averagecupofjoey/PizzaPaths'
+      demoLink='https://imagine-realty.vercel.app/'
+      codeLink='https://github.com/averagecupofjoey/imagine-realty'
     ></ProjectPage>
   );
 };
 
-export default pizzapaths;
+export default imaginerealty;

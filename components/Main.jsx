@@ -56,9 +56,15 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </a>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
-              <CgFileDocument />
-            </div>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                <CgFileDocument />
+              </div>
+            </a>
           </div>
         </div>
       </div>

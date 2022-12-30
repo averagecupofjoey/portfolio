@@ -19,7 +19,8 @@ const Navbar = () => {
       router.asPath === '/octogame' ||
       router.asPath === '/pizzapaths' ||
       router.asPath === '/github' ||
-      router.asPath === '/dragondepot'
+      router.asPath === '/dragondepot' ||
+      router.asPath === '/imaginerealty'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
@@ -183,9 +184,15 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </a>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
-                  <CgFileDocument />
-                </div>
+                <a
+                  target='_blank'
+                  rel='noreferrer'
+                  href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
+                    <CgFileDocument />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
