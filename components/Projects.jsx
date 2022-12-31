@@ -1,11 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-// import octohome from '../public/assets/projects/octohome.png';
-// import octohome from '../public/assets/octohome.PNG';
+
 import octohome from '../public/assets/projects/octohome.PNG';
 import ProjectItem from './ProjectItem';
-// import joe from '../public/assets/Joe.JPG';
 import pizzapath from '../public/assets/projects/pizzapaths.JPEG';
 import githubfinder from '../public/assets/projects/githubfinder.png';
 import dragondepot from '../public/assets/projects/dragondepot.png';
