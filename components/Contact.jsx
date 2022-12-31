@@ -34,8 +34,8 @@ const Contact = () => {
                 <h2 className='py-2'>Joseph Elias</h2>
                 <p>Fullstack Developer</p>
                 <p className='py-4'>
-                  I'm currently looking for a full-time position. Contact me if
-                  you have a role that I'd be a good fit for!
+                  I&apos;m currently looking for a full-time position. Contact
+                  me if you have a role that I&apos;d be a good fit for!
                 </p>
               </div>
               <div>
