@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { useState } from 'react';
-import JoeImg from '../public/assets/joe.jpg';
+import joeImg from '../public/assets/joe.jpg';
 
 const About = () => {
   const [details, setDetails] = useState('professional');
@@ -122,7 +122,7 @@ const About = () => {
           <p className='text-l tracking-widest uppercase text-[#5651e5]'></p>
         </div>
         <div className='w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={JoeImg} className='rounded-xl' alt='Picture of Joe' />
+          <Image src={joeImg} className='rounded-xl' alt='Picture of Joe' />
         </div>
       </div>
     </div>
