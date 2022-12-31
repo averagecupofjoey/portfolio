@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { useState } from 'react';
-import joeImg from '../public/assets/joe.jpg';
+import joeImg from '../public/joe.jpg';
 
 const About = () => {
   const [details, setDetails] = useState('professional');
