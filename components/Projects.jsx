@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import octohome from '../public/assets/projects/octohome.PNG';
+import octohome from '../public/assets/projects/octohome.png';
 import ProjectItem from './ProjectItem';
-import pizzapath from '../public/assets/projects/pizzapaths.JPEG';
+import pizzapath from '../public/assets/projects/pizzapaths.jpeg';
 import githubfinder from '../public/assets/projects/githubfinder.png';
 import dragondepot from '../public/assets/projects/dragondepot.png';
 import imaginerealty from '../public/assets/projects/imaginerealty.png';
