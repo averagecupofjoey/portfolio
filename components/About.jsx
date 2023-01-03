@@ -89,13 +89,13 @@ const About = () => {
                 members,&#41; in League of Legends: Wild Rift.
               </p>
               <p className='py-2 text-gray-600'>
-                I probably love pizza more than anyone you&apos;ve ever met, and
-                would eat it every day of the week if my metabolism could keep
-                up. I started going on self-guided walking pizza tours
-                throughout the pandemic, which led to the inspiration of my app{' '}
+                I&apos;m a self proclained pizza connoisseur, and would eat it
+                every day of the week if my metabolism could keep up. I started
+                going on self-guided walking pizza tours throughout the
+                pandemic, which led to the inspiration of my app{' '}
                 <span className='font-bold'>
                   <a
-                    href='https://www.pizzapaths.com'
+                    href='http://www.pizzapaths.com'
                     target='_blank'
                     rel='noreferrer'
                   >
