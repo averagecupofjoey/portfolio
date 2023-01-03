@@ -103,9 +103,6 @@ const About = () => {
                   </a>
                   .
                 </span>
-                &nbsp;I&apos;ve tried many of the major pizza establishments in
-                NYC, and thoroughly enjoy getting to expand my education in this
-                area.
               </p>
               <p className='py-2 text-gray-600'>
                 Weather permitting, my preferred mode of public transportation
