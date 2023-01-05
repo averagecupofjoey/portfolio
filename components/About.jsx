@@ -22,28 +22,28 @@ const About = () => {
               id='prof'
               className={
                 details === 'professional'
-                  ? 'underline underline-offset-4  cursor-pointer hover:bg-hoverbase'
-                  : 'cursor-pointer hover:bg-hoverbase'
+                  ? 'underline underline-offset-4  cursor-pointer hover:bg-hoverbase hover:hoverbackground py-1'
+                  : 'cursor-pointer hover:bg-hoverbase hover:hoverbackground py-1'
               }
               onClick={() => {
                 setDetails('professional');
               }}
             >
-              Professional
-            </span>{' '}
-            /{' '}
+              &nbsp;Professional
+            </span>
+            &nbsp;/
             <span
               id='pers'
               className={
                 details === 'personal'
-                  ? 'underline underline-offset-4 hover:bg-hoverbase cursor-pointer'
-                  : 'cursor-pointer hover:bg-hoverbase'
+                  ? 'underline underline-offset-4 hover:bg-hoverbase cursor-pointer hover:hoverbackground py-1'
+                  : 'cursor-pointer hover:bg-hoverbase hover:hoverbackground py-1'
               }
               onClick={() => {
                 setDetails('personal');
               }}
             >
-              Personal
+              &nbsp;Personal{''}
             </span>
           </p>
           {/* </div> */}
