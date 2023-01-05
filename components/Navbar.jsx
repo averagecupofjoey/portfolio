@@ -98,7 +98,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-badgebase p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -114,17 +114,19 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-black p-3 cursor-pointer'
               >
                 <AiOutlineClose />
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>Where to?</p>
+              <p className='w-[85%] md:w-[90%] py-4 text-hoverbase'>
+                Where to?
+              </p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>
-            <ul className='uppercase'>
+            <ul className='uppercase text-hoverbase'>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Home
@@ -153,7 +155,7 @@ const Navbar = () => {
             </ul>
 
             <div className='pt-10 sm:pt-20 md:pt-30 '>
-              <p className='uppercase tracking-widest text-[#413db1]'>
+              <p className='uppercase tracking-widest text-hoverbase'>
                 Connect with me
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>

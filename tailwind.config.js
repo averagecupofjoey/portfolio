@@ -15,6 +15,7 @@ module.exports = {
         badgebase: '#C2C8CC',
         largetextbase: '#D7D7D5',
         hoverbase: '#3E1C2D',
+        navbase: '#596475',
       },
     },
   },

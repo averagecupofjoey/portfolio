@@ -31,7 +31,7 @@ a {
 
 html {
   scroll-behavior: smooth!important;
-  background-color: #283747;
+  background-color: #0B1523;
 }
 
 @layer base {
@@ -56,7 +56,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#596475] to-[#3d1c2c] text-white
+    @apply shadow-lg shadow-black rounded-xl uppercase bg-gradient-to-r from-[#596475] to-[#3d1c2c] text-textbase
   }
 }
 
@@ -75,5 +75,21 @@ html {
         -webkit-border-radius: 10px 10px 0px 0px;
         border-radius: 10px 10px 0px 0px;
         /* padding: .25rem; */
+  }
+  .testClass {
+    color: #3E1C2D;
+    -webkit-text-stroke: .3px #D7D7D5;
+  }
+  .anotherTest{
+    color: #3E1C2D;
+    /* color: #341927; */
+    /* color: #331826; */
+      text-shadow:
+          .7px .7px 0 #fff,
+          -.7px -.7px 0 #fff,
+          1px -1px 0 #fff,
+          -.7px .7px 0 #fff,
+          .7px .7px 0 #fff;
+        /* font-size: 50px; */
   }
 }

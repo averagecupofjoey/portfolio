@@ -29,11 +29,11 @@ const ProjectPage = ({
       </div>
       <div className='mx-auto max-w-[1240px] p-2 grid md:grid-cols-5 gap-8 pt-[33vh] lg:pt-[43vh]'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
+          <p className='text-sectionbase'>Project</p>
+          <h2 className='text-largetextbase'>Overview</h2>
           {projectDesc.map((el, idx) => {
             return (
-              <p className='pb-4' key={idx}>
+              <p className='pb-4 text-textbase' key={idx}>
                 {el}
               </p>
             );
@@ -46,13 +46,15 @@ const ProjectPage = ({
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-lg shadow-black rounded-xl p-4'>
           <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Technologies</p>
+            <p className='text-center font-bold pb-2 text-sectionbase'>
+              Technologies
+            </p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               {technologies.map((el, idx) => {
                 return (
-                  <p className='text-gray-600 py-2 flex items-center' key={idx}>
+                  <p className='text-textbase py-2 flex items-center' key={idx}>
                     <RiRadioButtonFill className='pr-1' /> {el}
                   </p>
                 );
@@ -61,7 +63,7 @@ const ProjectPage = ({
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='underline cursor-pointer text-textbase'>Back</p>
         </Link>
       </div>
     </div>

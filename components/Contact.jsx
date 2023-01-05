@@ -20,8 +20,8 @@ const Contact = () => {
         <h2 className='py-4 text-largetextbase'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl py-4 bg-hoverbase'>
-            <div className='lg:p-4 h-full'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-black rounded-xl py-4 bg-hoverbase'>
+            <div className='p-4 h-full'>
               <div className='flex justify-center'>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
@@ -48,7 +48,7 @@ const Contact = () => {
                     rel='noreferrer'
                     href='https://www.linkedin.com/in/josephelias/'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300 text-white bg-badgebase'>
+                    <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                       <FaLinkedin />
                     </div>
                   </a>
@@ -57,12 +57,12 @@ const Contact = () => {
                     rel='noreferrer'
                     href='https://github.com/averagecupofjoey'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                       <FaGithub />
                     </div>
                   </a>
                   <a href='mailto:jrelias@outlook.com'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                       <AiOutlineMail />
                     </div>
                   </a>
@@ -71,7 +71,7 @@ const Contact = () => {
                     rel='noreferrer'
                     href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                       <CgFileDocument />
                     </div>
                   </a>
@@ -80,7 +80,7 @@ const Contact = () => {
             </div>
           </div>
           {/* right side */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-hoverbase'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4 bg-hoverbase'>
             <div className='p-4 text-textbase'>
               <form action={subject} method='post' enctype='text/plain'>
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -140,9 +140,12 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointe hover:scale-110 ease-in duration-300'>
+          <div className='rounded-full shadow-xl shadow-black p-4 cursor-pointe hover:scale-110 ease-in duration-300 bg-hoverbase'>
             <Link href='/'>
-              <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={30} />
+              <HiOutlineChevronDoubleUp
+                className='text-sectionbase'
+                size={30}
+              />
             </Link>
           </div>
         </div>

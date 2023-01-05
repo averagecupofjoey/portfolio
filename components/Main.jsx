@@ -8,11 +8,11 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest text-largetextbase'>
             {/* This is a test */}
           </p>
           <h1 className='py-4 text-largetextbase'>
-            Hi, I&apos;m <span className='text-sectionbase'>Joe</span>
+            Hi, I&apos;m <span className='anotherTest'>Joe</span>
           </h1>
           <h1 className='py-2 text-largetextbase'>A Fullstack Developer</h1>
           <p className='py-2 text-textbase max-w-[70%] m-auto'>
@@ -38,7 +38,7 @@ const Main = () => {
               rel='noreferrer'
               href='https://www.linkedin.com/in/josephelias/'
             >
-              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
+              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <FaLinkedin />
               </div>
             </a>
@@ -47,12 +47,12 @@ const Main = () => {
               rel='noreferrer'
               href='https://github.com/averagecupofjoey'
             >
-              <div className='rounded-full shadow-md shadow-gray-500 p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
+              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <FaGithub />
               </div>
             </a>
             <a href='mailto:jrelias@outlook.com'>
-              <div className='rounded-full shadow-md shadow-gray-500 p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
+              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <AiOutlineMail />
               </div>
             </a>
@@ -61,7 +61,7 @@ const Main = () => {
               rel='noreferrer'
               href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
             >
-              <div className='rounded-full shadow-md shadow-gray-500 p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
+              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <CgFileDocument />
               </div>
             </a>
