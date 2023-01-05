@@ -4,7 +4,7 @@ import React from 'react';
 const Skillbanner = ({ skillName }) => {
   const srcTerm = `/assets/skills/${skillName}.png`;
   return (
-    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-badgebase'>
       <div className='grid grid-cols-2 gap-4 justify-center items-center'>
         <div className='m-auto'>
           <Image src={srcTerm} width='64' height='64' alt={skillName} />

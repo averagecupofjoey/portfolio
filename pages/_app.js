@@ -5,7 +5,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <Component {...pageProps} />
+      <div className='bg-backgroundbase'>
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }

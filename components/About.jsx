@@ -6,21 +6,24 @@ import joeImg from '../public/joe.jpg';
 const About = () => {
   const [details, setDetails] = useState('professional');
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-20'>
+    <div
+      id='about'
+      className='w-full md:h-screen p-2 flex items-center scroll-mt-1'
+    >
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+          <p className='uppercase text-xl tracking-widest text-sectionbase'>
             About
           </p>
-          <h2 className='py-4'>Not your Average Joe</h2>
+          <h2 className='py-4 text-largetextbase'>Not your Average Joe</h2>
           {/* <div className='border-b-2 inline-block border-gray-700 pb-2'> */}
-          <p className='text-l tracking-widest uppercase text-[#5651e5]'>
+          <p className='text-l tracking-widest uppercase text-sectionbase'>
             <span
               id='prof'
               className={
                 details === 'professional'
-                  ? 'underline underline-offset-4  cursor-pointer hover:bg-slate-300'
-                  : 'cursor-pointer hover:bg-slate-300'
+                  ? 'underline underline-offset-4  cursor-pointer hover:bg-hoverbase'
+                  : 'cursor-pointer hover:bg-hoverbase'
               }
               onClick={() => {
                 setDetails('professional');
@@ -33,8 +36,8 @@ const About = () => {
               id='pers'
               className={
                 details === 'personal'
-                  ? 'underline underline-offset-4 hover:bg-slate-300 cursor-pointer'
-                  : 'cursor-pointer hover:bg-slate-300'
+                  ? 'underline underline-offset-4 hover:bg-hoverbase cursor-pointer'
+                  : 'cursor-pointer hover:bg-hoverbase'
               }
               onClick={() => {
                 setDetails('personal');
@@ -47,24 +50,24 @@ const About = () => {
           {/* <hr class='mx-auto bg-gray-700 text-lg text-black h-1 rounded hidden md:block' /> */}
           {details === 'professional' && (
             <>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 I&apos;m a former Broadway and off-Broadway Business Manager and
                 a former hedge fund accountant for one of the largest
                 alternative investment firms in the world.
               </p>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 I started programming as a hobby back in 2019, and went to
                 Fullstack Academy for a formal education at the end of 2021.
                 Since graduating I have focused on updating and expanding my
                 technical skill set to make me competitive in today&apos;s
                 market.
               </p>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 In addition to the aforementioned education I have a
                 bachelor&apos;s degree in Finance, and a master&apos;s degree in
                 Performing Arts Management.
               </p>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 I&apos;m a <span className='font-bold'>big picture </span>
                 innovator and leader. My programming knowledge combined with my
                 managerial, analytical, and creative experiences give me a skill
@@ -77,18 +80,19 @@ const About = () => {
 
           {details === 'personal' && (
             <>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 After being born and raised in Florida, I moved in the summer of
                 2017 to pursue a master&apos;s degree in Performing Arts
                 Management and to take my bite out of the big apple.
               </p>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 I&apos;m an avid theater goer, songwriter, and ukulele
                 enthusiast. I also enjoy a good video game, and am the founder
-                and leader of one of the premier LGBTQ+ guilds &#40;with 140
+                and leader of one of the premier{' '}
+                <span className='rainbow'>LGBTQ+</span> guilds &#40;with 140
                 members,&#41; in League of Legends: Wild Rift.
               </p>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 I&apos;m a self proclained pizza connoisseur, and would eat it
                 every day of the week if my metabolism could keep up. I started
                 going on self-guided walking pizza tours throughout the
@@ -104,7 +108,7 @@ const About = () => {
                   .
                 </span>
               </p>
-              <p className='py-2 text-gray-600'>
+              <p className='py-2 text-textbase'>
                 Weather permitting, my preferred mode of public transportation
                 is Citi Bike. In the summer months, you can usually find me
                 roller skating down the west side highway bike path. In the

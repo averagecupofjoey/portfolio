@@ -23,7 +23,7 @@ const dragondepot = () => {
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
-      demoLink='http://www.dragondepot.onrender.com'
+      demoLink='https://dragondepot.onrender.com'
       codeLink='https://github.com/averagecupofjoey/tailwind'
     ></ProjectPage>
   );

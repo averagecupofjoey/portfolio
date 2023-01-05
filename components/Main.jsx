@@ -11,11 +11,11 @@ const Main = () => {
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             {/* This is a test */}
           </p>
-          <h1 className='py-4 text-gray-700'>
-            Hi, I&apos;m <span className='text-[#5651e5]'>Joe</span>
+          <h1 className='py-4 text-largetextbase'>
+            Hi, I&apos;m <span className='text-sectionbase'>Joe</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Fullstack Developer</h1>
-          <p className='py-2 text-gray-600 max-w-[70%] m-auto'>
+          <h1 className='py-2 text-largetextbase'>A Fullstack Developer</h1>
+          <p className='py-2 text-textbase max-w-[70%] m-auto'>
             I live in the intersection of creativity and analytics. I am
             mesmerized by how data can be used and manipulated to produce
             interactive experiences for users, and the technologies that are
@@ -38,7 +38,7 @@ const Main = () => {
               rel='noreferrer'
               href='https://www.linkedin.com/in/josephelias/'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
                 <FaLinkedin />
               </div>
             </a>
@@ -47,12 +47,12 @@ const Main = () => {
               rel='noreferrer'
               href='https://github.com/averagecupofjoey'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-gray-500 p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
                 <FaGithub />
               </div>
             </a>
             <a href='mailto:jrelias@outlook.com'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-gray-500 p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
                 <AiOutlineMail />
               </div>
             </a>
@@ -61,7 +61,7 @@ const Main = () => {
               rel='noreferrer'
               href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointe hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-md shadow-gray-500 p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase'>
                 <CgFileDocument />
               </div>
             </a>
