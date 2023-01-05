@@ -12,7 +12,8 @@ const Main = () => {
             {/* This is a test */}
           </p>
           <h1 className='py-4 text-largetextbase'>
-            Hi, I&apos;m <span className='anotherTest'>Joe</span>
+            Hi, I&apos;m{' '}
+            <span className='text-sectionbase sm:joeFont'>Joe</span>
           </h1>
           <h1 className='py-2 text-largetextbase'>A Fullstack Developer</h1>
           <p className='py-2 text-textbase max-w-[70%] m-auto'>

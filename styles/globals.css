@@ -80,16 +80,16 @@ html {
     color: #3E1C2D;
     -webkit-text-stroke: .3px #D7D7D5;
   }
-  .anotherTest{
+  .joeFont{
     color: #3E1C2D;
     /* color: #341927; */
     /* color: #331826; */
       text-shadow:
-          2px 2px 0 #fff,
-          -2px -2px 0 #fff,
-          2px -2px 0 #fff,
-          -2px 2px 0 #fff,
-          1px 1px 0 #fff;
+          .7px .7px 0 #fff,
+          -.7px -.7px 0 #fff,
+          1px -1px 0 #fff,
+          -.7px .7px 0 #fff,
+          .7px .7px 0 #fff;
         /* font-size: 50px; */
   }
 }
