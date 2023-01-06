@@ -18,8 +18,8 @@ const Skills = () => {
     'github',
   ];
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 pt-20'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+    <div id='skills' className='w-full lg:h-screen p-2 pb-40 lg:pb-0'>
+      <div className='max-w-[1240px] m-auto flex flex-col h-full'>
         <p className='text-xl tracking-widest uppercase text-sectionbase'>
           Skills
         </p>

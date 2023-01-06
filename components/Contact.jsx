@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <div id='contact' className='w-full lg:min-h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 pt-20 w-full'>
+      <div className='max-w-[1240px] m-auto px-2 w-full'>
         <p className='text0xl tracking-widest uppercase text-sectionbase'>
           Contact
         </p>
@@ -30,7 +30,7 @@ const Contact = () => {
                   height={350}
                 />
               </div>
-              <div>
+              <div className='pt-1'>
                 <h2 className='py-2 text-largetextbase'>Joseph Elias</h2>
                 <p className='text-sectionbase'>Fullstack Developer</p>
                 <p className='py-4 text-textbase'>
@@ -69,7 +69,7 @@ const Contact = () => {
                   <a
                     target='_blank'
                     rel='noreferrer'
-                    href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
+                    href='https://drive.google.com/file/d/19JWFzMRUAnTzl12Opq0a34gIZcRg3JUa/view'
                   >
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                       <CgFileDocument />

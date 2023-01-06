@@ -6,11 +6,8 @@ import joeImg from '../public/joe.jpg';
 const About = () => {
   const [details, setDetails] = useState('professional');
   return (
-    <div
-      id='about'
-      className='w-full md:h-screen p-2 flex items-center scroll-mt-1'
-    >
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+    <div id='about' className='w-full md:h-screen p-2 flex pb-20 md-pb-0'>
+      <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 auto-rows-max gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-sectionbase'>
             About
@@ -120,11 +117,11 @@ const About = () => {
           )}
 
           <hr class='mx-auto bg-gray-700 text-lg text-black h-1 rounded my-1 hidden md:block' />
-          <p className='text-l tracking-widest uppercase text-[#5651e5]'></p>
         </div>
-        <div className='w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 col-span-1'>
           <Image src={joeImg} className='rounded-xl' alt='Picture of Joe' />
         </div>
+        <div id='growthis' className='col-span-3'></div>
       </div>
     </div>
   );

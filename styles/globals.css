@@ -32,6 +32,7 @@ a {
 html {
   scroll-behavior: smooth!important;
   background-color: #0B1523;
+  scroll-padding-top: var(--scroll-padding, 600px);
 }
 
 @layer base {

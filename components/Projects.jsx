@@ -12,7 +12,7 @@ import imaginerealty from '../public/assets/projects/imaginerealty.png';
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-20'>
+      <div className='max-w-[1240px] mx-auto px-2 pb-40'>
         <p className='text-xl tracking-widest uppercase text-sectionbase'>
           Projects
         </p>

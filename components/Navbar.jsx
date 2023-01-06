@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { useRouter } from 'next/router';
@@ -12,8 +12,11 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
+  const [scrollPadding, setScrollPadding] = useState(0);
 
   const router = useRouter();
+
+  const navRef = useRef(null);
 
   useEffect(() => {
     if (
@@ -46,8 +49,18 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow);
   }, [navBg]);
 
+  useEffect(() => {
+    setScrollPadding(navRef.current.clientHeight);
+
+    document.documentElement.style.setProperty(
+      '--scroll-padding',
+      Math.floor(scrollPadding) + 'px'
+    );
+  }, [scrollPadding]);
+
   return (
     <div
+      ref={navRef}
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
@@ -185,7 +198,7 @@ const Navbar = () => {
                 <a
                   target='_blank'
                   rel='noreferrer'
-                  href='https://drive.google.com/file/d/14bgRpr4bYJ0nn515HIy1cHa05mCIlXrb/view'
+                  href='https://drive.google.com/file/d/19JWFzMRUAnTzl12Opq0a34gIZcRg3JUa/view'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
                     <CgFileDocument />
