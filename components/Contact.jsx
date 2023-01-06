@@ -24,7 +24,7 @@ const Contact = () => {
             <div className='p-4 h-full'>
               <div className='flex justify-center'>
                 <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  className='rounded-xl lg:hover:scale-105 ease-in duration-300'
                   src={contact}
                   alt='contact image'
                   height={350}
