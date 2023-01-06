@@ -6,7 +6,7 @@ import joeImg from '../public/joe.jpg';
 const About = () => {
   const [details, setDetails] = useState('professional');
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex pb-20 md-pb-0'>
+    <div id='about' className='w-full md:h-screen p-2 flex pb-40 md-pb-0'>
       <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 auto-rows-max gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-sectionbase'>
