@@ -8,6 +8,7 @@ import pizzapath from '../public/assets/projects/pizzapaths.jpeg';
 import githubfinder from '../public/assets/projects/githubfinder.png';
 import dragondepot from '../public/assets/projects/dragondepot.png';
 import imaginerealty from '../public/assets/projects/imaginerealty.png';
+import dungeonraid from '../public/assets/projects/dungeonraid.png';
 
 const Projects = () => {
   return (
@@ -37,6 +38,13 @@ const Projects = () => {
             backgroundImg={imaginerealty}
             projectUrl='/imaginerealty'
             summary='A CRUD real estate app with user profiles.'
+          />
+
+          <ProjectItem
+            title='Dungeon Raid'
+            backgroundImg={dungeonraid}
+            projectUrl='/dungeonraid'
+            summary='A Phaser3 game using Typescript and classes galore.'
           />
 
           <ProjectItem

@@ -24,7 +24,8 @@ const Navbar = () => {
       router.asPath === '/pizzapaths' ||
       router.asPath === '/github' ||
       router.asPath === '/dragondepot' ||
-      router.asPath === '/imaginerealty'
+      router.asPath === '/imaginerealty' ||
+      router.asPath === '/dungeonraid'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
