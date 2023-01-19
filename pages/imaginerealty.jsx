@@ -5,26 +5,28 @@ import projectImg from '../public/assets/projects/imaginerealty.png';
 const projName = 'Imagine Realty';
 const techs = [
   'Javascript',
-  'NextJS',
+  'React',
+  'Firebase',
   'Node',
   'Axios',
   'Leaflet',
-  'OpenStreetMap',
-  'Yelp API',
-  'Mapbox API',
+  'Toast',
+  'Google OAuth',
+  'OpenStreetMap API',
 ];
 
 const p1 =
-  "This application uses the current gps location of the user to create a personalized pizza tour based on the user's desired number of slices and total walking distance.";
+  'This application was made with React and uses Firebase with Firestore as a database and was designed with a mobile first mentality.';
 
 const p2 =
-  'It first calls the Yelp API to locate pizza slice locations near the user. I obstract multiple pieces of this data and then run an algorithm I created to calculate the distance between every possible location. The possible paths that fall within the user defined total distance are added to a data structure, which is used to produce a Leaflet map with custom pizza slice markers.';
+  'Users can create an account, post their home for either rent or sale, and specify if there is a discount applied. Up to six pictures can be uploaded onto each listing, which are used to create a slideshow on the page for that listing. This listing page has a share functionality to be shared with social media accounts.';
 
 const p3 =
-  'The location data is then sent to mapbox to generate step by step routing instructions for the user, which is overlayed on to the map displayed to the user. A user can click on each custom pizza marker on the map to open a modal with additional information on the location.';
+  'When entering the location, that address data is then sent to OpenStreetMap and the results are displayed on a leaflet map. A user can go to their profile page and edit/delete the listings that they have published on to the site, as well as update their user information.';
 
 const p4 =
-  'Finally, a user is able to generate a new path or ammend the total slices desired in a path. Thanks to the data structure containing route info, this is done without needing to make an additional Yelp API call.';
+  'React-Toastify was implemented to communicate error and success messages to the user.';
+
 const desc = [p1, p2, p3, p4];
 
 const imaginerealty = () => {
