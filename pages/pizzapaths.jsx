@@ -35,7 +35,7 @@ const pizzapaths = () => {
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
-      demoLink='https://pizzapaths.onrender.com/'
+      demoLink='https://pizzapaths.vercel.app/'
       codeLink='https://github.com/averagecupofjoey/PizzaPaths'
     ></ProjectPage>
   );
