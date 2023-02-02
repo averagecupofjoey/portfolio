@@ -39,7 +39,7 @@ const Main = () => {
               rel='noreferrer'
               href='https://www.linkedin.com/in/josephelias/'
             >
-              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
+              <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <FaLinkedin />
               </div>
             </a>
@@ -48,12 +48,12 @@ const Main = () => {
               rel='noreferrer'
               href='https://github.com/averagecupofjoey'
             >
-              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
+              <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <FaGithub />
               </div>
             </a>
             <a href='mailto:jrelias@outlook.com'>
-              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
+              <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <AiOutlineMail />
               </div>
             </a>
@@ -62,7 +62,7 @@ const Main = () => {
               rel='noreferrer'
               href='https://drive.google.com/file/d/19JWFzMRUAnTzl12Opq0a34gIZcRg3JUa/view'
             >
-              <div className='rounded-full shadow-md shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
+              <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <CgFileDocument />
               </div>
             </a>

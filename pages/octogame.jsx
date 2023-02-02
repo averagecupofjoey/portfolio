@@ -93,6 +93,8 @@ const octogame = () => {
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
+      demoLink='https://octogame.onrender.com/'
+      codeLink='https://github.com/Modern-TeaShoP/octo-game'
     ></ProjectPage>
   );
 };

@@ -25,7 +25,8 @@ const Navbar = () => {
       router.asPath === '/github' ||
       router.asPath === '/dragondepot' ||
       router.asPath === '/imaginerealty' ||
-      router.asPath === '/dungeonraid'
+      router.asPath === '/dungeonraid' ||
+      router.asPath === '/shrimpopedia'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
@@ -78,16 +79,16 @@ const Navbar = () => {
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>
-            <Link href='/#about'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-            </Link>
-            <Link href='/#skills'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-            </Link>
             <Link href='/#projects'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 Projects
               </li>
+            </Link>
+            <Link href='/#skills'>
+              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+            </Link>
+            <Link href='/#about'>
+              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
             </Link>
             <Link href='/#contact'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -146,9 +147,9 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  About
+                  Projects
                 </li>
               </Link>
               <Link href='/#skills'>
@@ -156,9 +157,9 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Projects
+                  About
                 </li>
               </Link>
               <Link href='/#contact'>

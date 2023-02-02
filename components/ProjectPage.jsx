@@ -55,7 +55,8 @@ const ProjectPage = ({
               {technologies.map((el, idx) => {
                 return (
                   <p className='text-textbase py-2 flex items-center' key={idx}>
-                    <RiRadioButtonFill className='pr-1' /> {el}
+                    <RiRadioButtonFill className='pr-1 min-w-[16px] max-w-[16px]' />
+                    {el}
                   </p>
                 );
               })}

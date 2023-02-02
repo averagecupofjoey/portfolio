@@ -20,7 +20,7 @@ const dungeonraid = () => {
   return (
     <ProjectPage
       projectName={projName}
-      projectHeadline='A browser game with classes and enemy AI.'
+      projectHeadline='A browser game with classes and enemy AI'
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}

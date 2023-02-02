@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import contact from '../public/assets/contact.jpg';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { CgFileDocument } from 'react-icons/cg';
+import joeCode from '../public/assets/joeCode.jpeg';
 
 const Contact = () => {
   let [subject, updateSubject] = useState('');
@@ -25,7 +26,7 @@ const Contact = () => {
               <div className='flex justify-center'>
                 <Image
                   className='rounded-xl lg:hover:scale-105 ease-in duration-300'
-                  src={contact}
+                  src={joeCode}
                   alt='contact image'
                   height={350}
                 />
