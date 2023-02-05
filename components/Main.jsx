@@ -60,7 +60,7 @@ const Main = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              href='https://drive.google.com/file/d/19JWFzMRUAnTzl12Opq0a34gIZcRg3JUa/view'
+              href='https://drive.google.com/file/d/1Qx_AOchBc4rteUmpvUp8LpDit5j8NCJY/view'
             >
               <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointe hover:scale-110 ease-in duration-300 bg-badgebase text-black'>
                 <CgFileDocument />

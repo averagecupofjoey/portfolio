@@ -37,8 +37,8 @@ const shrimpopedia = () => {
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
-      // demoLink='https://pizzapaths.onrender.com/'
-      codeLink='https://github.com/averagecupofjoey/PizzaPaths'
+      demoLink='https://github.com/averagecupofjoey/shrimpopedia'
+      codeLink='https://github.com/averagecupofjoey/shrimpopedia'
     ></ProjectPage>
   );
 };
