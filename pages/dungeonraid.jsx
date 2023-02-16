@@ -3,7 +3,7 @@ import ProjectPage from '../components/ProjectPage';
 import projectImg from '../public/assets/projects/dungeonraid.png';
 
 const projName = 'Dungeon Raid';
-const techs = ['Typescript', 'Phaser3', 'Node', 'Webpack', 'Babel', 'Tiled'];
+const techs = ['Phaser3', 'Node', 'Typescript', 'Babel', 'Tiled', 'Webpack'];
 
 const p1 =
   'This simple chest collecting game provided ample practice implementing classes with Typescript.';

@@ -4,9 +4,9 @@ import projectImg from '../public/assets/projects/imaginerealty.png';
 
 const projName = 'Imagine Realty';
 const techs = [
-  'Javascript',
   'React',
   'Firebase',
+  'Javascript',
   'Node',
   'Axios',
   'Leaflet',

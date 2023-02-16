@@ -4,16 +4,16 @@ import projectImg from '../public/assets/projects/shrimpopedia.png';
 
 const projName = 'Shrimpopedia';
 const techs = [
-  'Javascript',
   'React',
   'Postgres',
+  'Javascript',
+  'NextJS',
   'Prisma',
   'Cropperjs',
-  'NextJS',
-  'NextAuth',
   'Node.js',
-  'Nodemailer',
   'Tailwind',
+  'Nodemailer',
+  'NextAuth',
 ];
 
 const p1 =

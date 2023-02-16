@@ -4,15 +4,16 @@ import projectImg from '../public/assets/projects/pizzapaths.jpeg';
 
 const projName = 'PizzaPaths';
 const techs = [
-  'Javascript',
   'NextJS',
   'Node',
+  'Javascript',
   'Axios',
   'Leaflet',
-  'OpenStreetMap',
+  'Toastify',
   'Yelp API',
   'Mapbox API',
   'Nomantim API',
+  'OpenStreetMap',
 ];
 
 const p1 =

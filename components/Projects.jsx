@@ -23,6 +23,24 @@ const Projects = () => {
 
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
+            title='PizzaPaths'
+            backgroundImg={pizzapath}
+            projectUrl='/pizzapaths'
+            summary='A pizza tour generator for pizza explorers.'
+            techStack={[
+              'Javascript',
+              'NextJS',
+              'Node.js',
+              'Axios',
+              'Leaflet',
+              'Toastify',
+              'Yelp API',
+              'Mapbox API',
+              'Open Street Map API',
+              'Nomantim API',
+            ]}
+          />
+          <ProjectItem
             title='Shrimpopedia'
             backgroundImg={shrimpopedia}
             projectUrl='/shrimpopedia'
@@ -38,22 +56,6 @@ const Projects = () => {
               'Node.js',
               'Nodemailer',
               'Tailwind',
-            ]}
-          />
-          <ProjectItem
-            title='PizzaPaths'
-            backgroundImg={pizzapath}
-            projectUrl='/pizzapaths'
-            summary='A pizza tour generator for pizza explorers.'
-            techStack={[
-              'Javascript',
-              'NextJS',
-              'Node.js',
-              'Axios',
-              'Leaflet',
-              'Yelp API',
-              'Mapbox API',
-              'Open Street Map API',
             ]}
           />
           <ProjectItem

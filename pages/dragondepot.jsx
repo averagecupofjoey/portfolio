@@ -3,7 +3,7 @@ import ProjectPage from '../components/ProjectPage';
 import projectImg from '../public/assets/projects/dragondepot.png';
 
 const projName = 'Dragon Depot';
-const techs = ['Tailwind', 'Javascript', 'HTML'];
+const techs = ['HTML', 'Tailwind', 'Javascript'];
 
 const p1 =
   'This site was made ultimately to get practice with TailwindCSS and custom animations.';

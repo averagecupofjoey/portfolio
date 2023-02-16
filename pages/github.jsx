@@ -4,9 +4,9 @@ import projectImg from '../public/assets/projects/githubfinder.png';
 
 const projName = 'Github Finder';
 const techs = [
-  'Javascript',
   'React',
   'Node',
+  'Javascript',
   'DaisyUI',
   'Tailwind',
   'Github API',

@@ -63,9 +63,9 @@ import projectImg from '../public/assets/projects/octointermission.png';
 
 const projName = 'Octo Game';
 const techs = [
-  'JavaScript',
   'Node.js',
   'Phaser3',
+  'JavaScript',
   'Express',
   'Sockt.io',
   'Passport',
