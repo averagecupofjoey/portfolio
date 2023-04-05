@@ -37,7 +37,7 @@ const shrimpopedia = () => {
       projectImage={projectImg}
       projectDesc={desc}
       technologies={techs}
-      demoLink='https://github.com/averagecupofjoey/shrimpopedia'
+      demoLink='https://shrimpopedia.vercel.app/'
       codeLink='https://github.com/averagecupofjoey/shrimpopedia'
     ></ProjectPage>
   );
