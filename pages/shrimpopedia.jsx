@@ -17,7 +17,7 @@ const techs = [
 ];
 
 const p1 =
-  'Did you know that there are over 2,000 types of aquarium shrimp? What started out as a joke became a major application and resource for shrimp lovers across the globe. This application allows users to easily sign up/sign in with just an email address. Users can upload images and data of their shrimp, search for other entries in the encyclopedia, list their shrimp for sale, and find resources for maintaining a healthy planted tank.';
+  'Did you know that there are over 2,000 types of aquarium shrimp? What started out as a joke became a major application and resource for shrimp lovers across the globe. This application allows users to easily sign up/sign in with just an email address. Users can upload images and data of their shrimp, search for other entries in the encyclopedia, list their shrimp for sale, and find resources for maintaining a healthy planted tank. A custom designed API with pagination is implemented to allow for infinite scroll capabilities.';
 
 const p2 =
   'The main shrimp page displays CSS cards with the shrimp image and name/species/gender. Upon clicking, the card is flipped to reveal more information about that shrimp. A user can then click a button on the card to go to the encyclopedia entry. This page uses a hook to get the dimensions of grid rows on the page, which allows me to display the information on a custom designed page that looks like a sheet of notebook paper.  ';

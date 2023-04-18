@@ -200,7 +200,7 @@ const Navbar = () => {
                 <a
                   target='_blank'
                   rel='noreferrer'
-                  href='https://drive.google.com/file/d/17WkTBGwjlXoc54TkFuone55SHbZg43g7/view'
+                  href={process.env.RESUME_URL}
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointe hover:scale-105 ease-in duration-300 ml-3'>
                     <CgFileDocument />
